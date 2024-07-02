@@ -1,0 +1,14 @@
+.sectionContainer {
+  --default-section-container-horizontal-padding: 20px;
+  --default-section-container-vertical-padding: 0px;
+  --default-section-container-max-width: 1296px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  //   scroll-margin-top: 60px;
+  & > * {
+    width: 100%;
+    max-width: var(--default-section-container-max-width);
+  }
+  padding: var(--default-section-container-vertical-padding) 0;
+}

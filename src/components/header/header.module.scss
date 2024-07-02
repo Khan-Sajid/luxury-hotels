@@ -1,0 +1,29 @@
+.topBar {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  gap: 50px;
+  font-size: 20px;
+  line-height: 25.27px;
+  padding: 16px 0;
+  button {
+    padding: 15px 25px;
+    border-radius: 10px;
+    color: #fff;
+    border: none;
+    background-color: #d80f0f;
+  }
+}
+.bottomBar {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  gap: 50px;
+  font-size: 20px;
+  line-height: 25.27px;
+  padding: 16px 0;
+  border-top: 1px solid rgb(0, 0, 0);
+  .imgContainer {
+    margin-right: auto;
+  }
+}
