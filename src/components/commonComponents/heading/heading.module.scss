@@ -1,0 +1,19 @@
+.heading {
+  height: 100px;
+  background: #b6191f;
+  border-bottom: 1px solid #fff;
+  .innerDiv {
+    display: flex;
+    flex-direction: column-reverse;
+    span {
+      border-radius: 4px 4px 0 0;
+      padding: 14px 32px;
+      background-color: #fff;
+      width: fit-content;
+    }
+    h2 {
+      text-transform: uppercase;
+      color: #846316;
+    }
+  }
+}

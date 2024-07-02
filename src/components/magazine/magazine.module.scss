@@ -1,0 +1,48 @@
+.contentDiv {
+  background: #b6191f;
+  padding: 48px 0;
+  display: flex;
+  align-items: center;
+}
+.content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 12px;
+  p {
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 16px;
+    line-height: 24px;
+  }
+  button {
+    margin-top: 16px;
+    width: fit-content;
+    padding: 13px 24px;
+    border-radius: 8px;
+    box-shadow: 0px 4px 20px 0px #f90b0f1a;
+    border: 1px solid #d9d9d9;
+    background: #8b0000;
+    color: #fff;
+  }
+}
+.magazineContainer {
+  display: grid;
+  grid-template-columns: 0.55fr 1fr;
+  align-items: center;
+}
+.imageContainer {
+  position: relative;
+}
+.mainImg {
+  position: relative;
+  z-index: 2;
+}
+.innerImage {
+  position: absolute;
+  right: 100px;
+  top: 50%;
+  transform: translate(0, -50%);
+  z-index: 1;
+  //sfj
+}
